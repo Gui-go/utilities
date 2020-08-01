@@ -1,0 +1,2 @@
+default:
+    mongoURL: 'mongodb+srv://USER:PASSWORD@cluster0-vckod.gcp.mongodb.net/test?retryWrites=true&w=majority'

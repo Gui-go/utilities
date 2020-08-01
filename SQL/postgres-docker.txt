@@ -1,3 +1,4 @@
+# Instalar o PostgreSQL
 docker run -p 5432:5432 -d \
     -e POSTGRES_PASSWORD=postgres \
     -e POSTGRES_USER=postgres \
@@ -5,9 +6,24 @@ docker run -p 5432:5432 -d \
     -v pgdata:/var/lib/postgresql/data \
     postgres
 
-
-
+# Caso queira roda o postgres via psql
 psql db-example -h localhost -U postgres
 
-
+# Rodar postgres via docker
 docker exec -it <container-ID> psql -U postgres db-example
+
+# Entrar dentro do container via bash
+docker container exec -it postgres-gis-docker bash
+
+# Instalar o postgis dentro do container 
+apt-get install postgis
+
+# Confira se o postgis.control está em usr/share/postgresql/12/extension/
+ls usr/share/postgresql/12/extension/
+
+# Rodar postgres via docker
+docker exec -it <container-ID> psql -U postgres db-example
+
+# Criar extensão postgis dentro do postgres
+CREATE EXTENSION postgis;
+
