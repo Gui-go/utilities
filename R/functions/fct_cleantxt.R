@@ -1,4 +1,4 @@
-clean.text <- function(text){
+cleantxt <- function(text){
   text <- iconv(text, to='ASCII//TRANSLIT')
   text <- gsub("[^[:alnum:]]", "", text)
   text <- gsub(" ", "", text)
