@@ -1,0 +1,27 @@
+#chart{
+    width: 800px;
+    height: 400px;
+    background-color: #f7f7f7;
+    margin: 25px auto;
+}
+
+.x-axis path, .x-axis line, .y-axis path, .y-axis line {
+    shape-rendering: crispEdges;
+}
+
+.x-axis text, .y-axis text {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button{
+    display: block;
+    margin: 0 auto;  /*centralizar elemento*/
+    height: 400px;
+    width: 800px;
+}
+
+#dale_btt{
+    font-size: 90px;
+}
