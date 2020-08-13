@@ -4,6 +4,7 @@ docker run -p 5432:5432 -d \
     -e POSTGRES_USER=postgres \
     -e POSTGRES_DB=db-example \
     -v pgdata:/var/lib/postgresql/data \
+    --name postgres-gis-docker \
     postgres
 
 docker run -p 5432:5432 -d \
@@ -62,3 +63,4 @@ pgsql2shp -f subregions.shp -h localhost -u me -P mypassword postgis_cookbook "S
 shp2pgsql -s 4326 C:\WGS84\AdministrativeLayers\Assembly_Boundary.shp Assembly_boundary | psql -U postgres -h localhost -p 5433 -d postgis20
 
 ogr2ogr for KML or SHP data
+raster2pgsql
