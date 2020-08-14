@@ -1,0 +1,66 @@
+# Instalar o PostgreSQL
+docker run -p 5432:5432 -d \
+    -e POSTGRES_PASSWORD=postgres \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_DB=db-example \
+    -v pgdata:/var/lib/postgresql/data \
+    --name postgres-gis-docker \
+    postgres
+
+docker run -p 5432:5432 -d \
+    -e POSTGRES_PASSWORD=postgres \
+    -e POSTGRES_USER=postgres \
+    -e POSTGRES_DB=db-example \
+    -v /home/aqrl-viegas/Documents/teste/docker/postgis:/var/lib/postgresql/data \
+    --name postgres-gis-docker \
+    postgres
+
+# Caso queira roda o postgres via psql
+psql db-example -h localhost -U postgres
+
+# Rodar postgres via docker
+docker exec -it <container-ID> psql -U postgres db-example
+docker exec -it postgres-gis-docker psql -U postgres db-example
+
+# Entrar dentro do container via bash
+docker container exec -it postgres-gis-docker bash
+
+# Instalar o postgis dentro do container 
+apt-get install postgis
+
+# Confira se o postgis.control está em usr/share/postgresql/12/extension/
+ls usr/share/postgresql/12/extension/
+
+# Rodar postgres via docker
+docker exec -it <container-ID> psql -U postgres db-example
+
+# Criar extensão postgis dentro do postgres
+CREATE EXTENSION postgis;
+
+_____________________________________________________
+# https://docs.geoserver.geo-solutions.it/edu/en/adding_data/shp_postgis.html
+
+# .shp to psql
+shp2pgsql -s 4326 br_shp/BR_UF_2019.dbf > BR_SHP_DBF.sql
+shp2pgsql -g the_geom buildings.shp tbl_buildings > buildings.sql
+
+shp2pgsql -s SRID BR_SHP_DBF.shp SCHEMA.TABLE | psql -h HOST -d db-example -U postgres
+shp2pgsql -g SRID BR_SHP_SHP.shp SCHEMA.TABLE | psql -h HOST -d db-example -U postgres
+shp2pgsql -s SRID br_shp/BR_UF_2019.dbf SCHEMA.TABLE | psql -h localhost -d db-example -U postgres;
+shp2pgsql -s SRID br_shp/BR_UF_2019.dbf ATABLE | psql -h localhost -d db-example -U postgres;
+
+
+CREATE FOREIGN TABLE data_schema.data_table(
+  id bigserial PRIMARY KEY,
+  geom geometry(MultiPolygon,4326)
+ )   SERVER f_server
+OPTIONS (schema_name 'data_schema', table_name 'data_table');
+
+shp2pgsql -s SRID br_shp/BR_UF_2019.dbf table | psql -h localhost -d db-example -U postgres;
+
+pgsql2shp -f subregions.shp -h localhost -u me -P mypassword postgis_cookbook "SELECT MIN(subregion) AS subregion, ST_Union(the_geom) AS the_geom, SUM(pop2005) AS pop2005 FROM chp01.countries GROUP BY subregion;"
+
+shp2pgsql -s 4326 C:\WGS84\AdministrativeLayers\Assembly_Boundary.shp Assembly_boundary | psql -U postgres -h localhost -p 5433 -d postgis20
+
+ogr2ogr for KML or SHP data
+raster2pgsql

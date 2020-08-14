@@ -1,0 +1,21 @@
+# A partir da imagem all-spark-notebook:
+# https://hub.docker.com/r/jupyter/all-spark-notebook/
+# Rode o seguinte comando no seu terminal:
+
+docker run -it -d \
+    -p 8888:8888 \
+    -v /home/guigo/Documents/docker_dir/jupyter_allspark/:/home/jovyan/ \
+    --name jupyter_allspark_container \
+    jupyter/all-spark-notebook \
+    start-notebook.sh \
+    --NotebookApp.token=''
+
+
+
+docker run -it -d \
+    -p 8888:8888 \
+    -v /home/aqrl-guilherme/aqrl-apps/python/frasle/:/home/jovyan/ \
+    --name jupyter_allspark_container \
+    jupyter/all-spark-notebook \
+    start-notebook.sh \
+    --NotebookApp.token=''
