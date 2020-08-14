@@ -67,7 +67,7 @@ places = getPlaces(
     CLIENT_SECRET = "P3J31D55BNMW4MY2PMH5GW4QTZ5KMIPKDCI2LEPHXKBVFPKX",
     LAT = -23.556439,
     LNG = -46.605931,
-    QUERY='Shopping mall',
+    QUERY='Skate',
     LIMIT=30#,
     #VERIFIED='True'
 )
@@ -76,4 +76,4 @@ places = getPlaces(
 places
 places.name
 
-# places.to_csv(r'locations.csv', index = False)
+# places.to_csv(r'PY/locations.csv', index = False)
