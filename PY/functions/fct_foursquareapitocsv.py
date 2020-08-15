@@ -67,7 +67,7 @@ places = getPlaces(
     CLIENT_SECRET = "P3J31D55BNMW4MY2PMH5GW4QTZ5KMIPKDCI2LEPHXKBVFPKX",
     LAT = -23.556439,
     LNG = -46.605931,
-    QUERY='Skate',
+    QUERY='Shopping center mall',
     LIMIT=30#,
     #VERIFIED='True'
 )
