@@ -36,3 +36,5 @@ sc <- shp %>% dplyr::filter(SIGLA_UF == "SC")
 hexsc <- shpToHexagon(sc, cellsize = .5)
 
 plot(hexsc$geometry)
+
+# sf::write_sf(sh2, "sh2.shp")
