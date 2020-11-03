@@ -1,0 +1,147 @@
+1604264014456	geckodriver	INFO	Listening on 127.0.0.1:56133
+1604264014665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2GrfXU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604264027404	Marionette	INFO	Listening on port 43537
+1604264027603	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 123: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+console.error: SearchService: "maybeReloadEngines failed" ({})
+JavaScript error: resource://gre/modules/DeferredTask.jsm, line 215: Error: Unable to arm timer, the object has been finalized.
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 688))
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1604264038269	Marionette	INFO	Stopped listening on port 43537
+1604264078531	geckodriver	INFO	Listening on 127.0.0.1:34171
+1604264078581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile98jobB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604264084462	Marionette	INFO	Listening on port 33919
+1604264084520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604264100257	Marionette	INFO	Stopped listening on port 33919
+1604264235829	geckodriver	INFO	Listening on 127.0.0.1:52233
+1604264235926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZLJBpO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604264241583	Marionette	INFO	Listening on port 41017
+1604264241734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604264256327	Marionette	INFO	Stopped listening on port 41017
+1604264438962	geckodriver	INFO	Listening on 127.0.0.1:55457
+1604264438968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemvWzgj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604264441797	Marionette	INFO	Listening on port 44231
+1604264441901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604264537161	Marionette	INFO	Stopped listening on port 44231
+1604264606868	geckodriver	INFO	Listening on 127.0.0.1:42623
+1604264606875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2xyEJH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604264612164	Marionette	INFO	Listening on port 40275
+1604264612653	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604264647449	Marionette	INFO	Stopped listening on port 40275
+1604267916814	geckodriver	INFO	Listening on 127.0.0.1:56085
+1604267918009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDLbJiQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604267923394	Marionette	INFO	Listening on port 35071
+1604267923661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://cidades.ibge.gov.br"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1604267966201	Marionette	INFO	Stopped listening on port 35071
+1604268184245	geckodriver	INFO	Listening on 127.0.0.1:55187
+1604268184254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehFsFNm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268187404	Marionette	INFO	Listening on port 40677
+1604268187490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604268207186	Marionette	INFO	Stopped listening on port 40677
+1604268284129	geckodriver	INFO	Listening on 127.0.0.1:53533
+1604268284137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebfICvU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268288635	Marionette	INFO	Listening on port 35485
+1604268288683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1604268307348	Marionette	INFO	Stopped listening on port 35485
+1604268335099	geckodriver	INFO	Listening on 127.0.0.1:51907
+1604268335106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHb1jQd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268338125	Marionette	INFO	Listening on port 35747
+1604268338241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604268365260	Marionette	INFO	Stopped listening on port 35747
+1604268444040	geckodriver	INFO	Listening on 127.0.0.1:42667
+1604268444046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilervGomx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268447133	Marionette	INFO	Listening on port 42321
+1604268447186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1604268451629	Marionette	INFO	Stopped listening on port 42321
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1604268477991	geckodriver	INFO	Listening on 127.0.0.1:36949
+1604268477997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQDzDhB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268480636	Marionette	INFO	Listening on port 41329
+1604268480793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604268506074	Marionette	INFO	Stopped listening on port 41329
+1604268662137	geckodriver	INFO	Listening on 127.0.0.1:38337
+1604268662143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4TwmdG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268665109	Marionette	INFO	Listening on port 42947
+1604268665174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604268687249	Marionette	INFO	Stopped listening on port 42947
+1604268732376	geckodriver	INFO	Listening on 127.0.0.1:45275
+1604268732381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev2eBfw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1604268734939	Marionette	INFO	Listening on port 34409
+1604268735008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://vlibras.gov.br/app2/vlibras-plugin.js, line 81: unreachable code after return statement
+1604268820725	Marionette	INFO	Stopped listening on port 34409

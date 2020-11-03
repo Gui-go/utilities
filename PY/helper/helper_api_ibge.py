@@ -15,8 +15,8 @@ df = pd.json_normalize(data)
 #df.shape
 df2 = df.rename(
     columns={
-        "municipio.id": "cd_muni", 
-        "municipio.nome": "nm_muni", 
+        "municipio.id": "cd_muni",
+        "municipio.nome": "nm_muni",
         "municipio.microrregiao.id": "cd_micro",
         "municipio.microrregiao.nome": "nm_micro",
         "municipio.microrregiao.mesorregiao.id": "cd_meso",
@@ -36,9 +36,18 @@ df4 = df3.drop_duplicates()
 
 #############################################
 
-nome=["Guilherme", "Julia"]
-fgo = pd.DataFrame(columns = ['nome', 'localidade', 'ate1930', 'd1930a1940', 'd1940a1950', 'd1950a1960', 'd1960a1970', 'd1970a1980', 'd1980a1990', 'd1990a2000', 'd2000a2010'])
-for i, v in enumerate(nome):
+url = f"https://servicodados.ibge.gov.br/api/v2/censos/nomes/{str(nome[2])}"
+print(f"Requesting: {url}")
+request = requests.get(url)
+data = request.json()
+
+
+nome="Guilherme,Julia"
+name=nome.split(",")
+fgo = dc = pd.DataFrame(columns = ['nome', 'localidade', 'ate1930', 'd1930a1940', 'd1940a1950', 'd1950a1960', 'd1960a1970', 'd1970a1980', 'd1980a1990', 'd1990a2000', 'd2000a2010'])
+
+for i, v in enumerate(name):
+    print(v)
     url = f"https://servicodados.ibge.gov.br/api/v2/censos/nomes/{str(v)}"
     print(f"Requesting: {url}")
     request = requests.get(url)
@@ -55,14 +64,7 @@ for i, v in enumerate(nome):
     dc["d1980a1990"] = re.search(r"'\[1980,1990\[', 'frequencia': (.*?)}, {'periodo': '\[1990,2000\['", str(data))[1]
     dc["d1990a2000"] = re.search(r"'\[1990,2000\[', 'frequencia': (.*?)}, {'periodo': '\[2000,2010\['", str(data))[1]
     dc["d2000a2010"] = re.search(r"'\[2000,2010\[', 'frequencia': (.*?)}\]}\]", str(data))[1]
-    fgo = fgo.append(pd.json_normalize(dc), ignore_index=True).dropna()
-
-del fgo
-#_________________________________________________
-import matplotlib.pyplot as plt
-x = np.array([1, 2, 3, 4])
-y = np.array([75, 0, 25, 100])
-plt.plot(x, y)
-plt.show()
-
+    df = pd.json_normalize(dc)
+    fgo = fgo.append(df, ignore_index=True).dropna()
+    
 
