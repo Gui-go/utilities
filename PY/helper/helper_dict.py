@@ -13,3 +13,12 @@ dict1.get("wrongKey", [])
 dict1.get("wrongKey", "ZERO")
 dict1["key3"].append("D4")
 dict1["key3"]
+
+
+
+# Dictionary comprehention
+dc = { i: i * 2 for i in range(10) if i % 2 == 0 }
+
+for i, e in dc.items():
+    print(f'{i} x 2 = {e}')
+

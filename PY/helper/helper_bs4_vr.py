@@ -1,12 +1,13 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 
 print('Crawling...')
 
 urls = list()
-for i in range(276):
+for i in range(3):  # 276
     urls.append(f'https://www.vivareal.com.br/venda/santa-catarina/balneario-camboriu/apartamento_residencial/?pagina={i+1}')
 
 
@@ -46,8 +47,23 @@ for urles in linkses:  # fazer com enumerate para saber em qual numero ta
 
 df = pd.DataFrame(lista, columns=['url', 'title', 'address', 'area', 'bedrooms', 'bathrooms', 'parking', 'price'])
 
+print(df)
+# df.to_csv(r'bc_imoveis.csv')
+# df = pd.read_csv('bc_imoveis.csv')
 
-df.to_csv(r'bc_imoveis.csv')
+# df = pd.DataFrame([1,1,1,2,3])
+# len(df['url'].drop_duplicates())
+# df[['url', 'title', 'address', 'area', 'bedrooms', 'bathrooms', 'parking', 'price']].drop_duplicates()
+# # df['date'] = pd.Timestamp('2020-10-31')
+# df['date'] = pd.Timestamp(datetime.today().strftime('%Y-%m-%d'))
 
 
+# df = df[-df['price'].isin(['Sob Consulta'])]
+# df = df[-df['parking'].isin(['  Não informado Solicitar '])]
+# df['parking'] = df['parking'].str.replace(' vagas', '')
+# df['parking'] = df['parking'].str.replace(' vaga', '')
+# df['parking'] = df['parking'].str.replace(' ', '')
+
+# df['price'] = df['price'].str.replace('R$ ', '')
+# df['price'].unique()
 
