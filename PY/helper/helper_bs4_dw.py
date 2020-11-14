@@ -3,6 +3,7 @@ Crawling and Scraper Class for the Deutsche Welle News website
 '''
 
 import requests
+import logging
 import pandas as pd
 from bs4 import BeautifulSoup
 
@@ -17,6 +18,7 @@ class DW:
             print('Código 200, deu boa.')
         else:
             print(f'hmmmm, código {self.page.status_code}, deu ruim')
+        logging.info('logggggggggging')
 
     def pega_link(self):
         tags = self.soup.find_all('a')
@@ -26,8 +28,7 @@ class DW:
         self.linkes_list = linkes_list
     
     def filter_linkes(self):
-        # self.filtered_list = self.linkes_list
-        self.filtered_list = [url for url in self.linkes_list if 'en' in url]
+        self.filtered_list = [url for url in self.linkes_list if '/en' in url]
         items_to_remove = ['twitter.', 'facebook.', 'linkedin.', 'youtube.', '/contact', 
         'about-dw', 'about-us', 'm.dw', '/training', '/podcasts', '/tv', '/top-stories',
         '/zh', 'de', '#', '/deutsch-lernen', '/radio', 'learn-german',
@@ -35,14 +36,13 @@ class DW:
         for remove_item in items_to_remove:
             self.filtered_list = [
                 url for url in self.filtered_list if remove_item not in url]
-        self.filtered_list = self.filtered_list[:6]
     
     def scrap(self):
         self.scrap_list = list()
         for url in self.filtered_list:
             page = requests.get(f'https://www.dw.com{url}')
-            # print(f'Scrapiando {page.url}')  # transforma em log
-            # print(f'Código {page.status_code}')
+            print(f'Scraping {page.url}')  # transformar em log
+            # print(f'Code {page.status_code}')
             soup = BeautifulSoup(page.content, 'html.parser')
             ul_smallList = soup.find('ul', {'class':'smallList'})
             div_innerFrame = soup.find('div', {'id':'innerFrame'})
