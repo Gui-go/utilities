@@ -949,3 +949,897 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
 1605348373532	Marionette	INFO	Stopped listening on port 42941
 JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+1605354901633	geckodriver	INFO	Listening on 127.0.0.1:43999
+1605354901806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehjlQgB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605354904850	Marionette	INFO	Listening on port 37291
+1605354905020	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605354917207	Marionette	INFO	Stopped listening on port 37291
+1605355015679	geckodriver	INFO	Listening on 127.0.0.1:34569
+1605355015685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecKMEuB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355018506	Marionette	INFO	Listening on port 36741
+1605355018614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605355030209	Marionette	INFO	Stopped listening on port 36741
+1605355376695	geckodriver	INFO	Listening on 127.0.0.1:50955
+1605355376781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQapy1q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355379724	Marionette	INFO	Listening on port 37339
+1605355379813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605355397302	Marionette	INFO	Stopped listening on port 37339
+1605355400525	geckodriver	INFO	Listening on 127.0.0.1:39279
+1605355400529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile80HMQ0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355403489	Marionette	INFO	Listening on port 42113
+1605355403573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+1605355412498	Marionette	INFO	Stopped listening on port 42113
+1605355701025	geckodriver	INFO	Listening on 127.0.0.1:55145
+1605355701029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5FkzWZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355703977	Marionette	INFO	Listening on port 46129
+1605355704081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605355768131	geckodriver	INFO	Listening on 127.0.0.1:59239
+1605355768137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXaWKz2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355771888	Marionette	INFO	Listening on port 39251
+1605355771981	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605355858084	geckodriver	INFO	Listening on 127.0.0.1:38869
+1605355858165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb9qN6d"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355861925	Marionette	INFO	Listening on port 45711
+1605355862028	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605355923961	geckodriver	INFO	Listening on 127.0.0.1:43809
+1605355924110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevKkY6z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355937798	Marionette	INFO	Listening on port 40645
+1605355938066	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605355939313	geckodriver	INFO	Listening on 127.0.0.1:44709
+1605355939460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTuuvQb"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x610023,name=PLayerTransaction::Msg___delete__) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355955077	Marionette	INFO	Stopped listening on port 40645
+1605355955480	Marionette	INFO	Listening on port 43395
+1605355955519	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605355966014	Marionette	INFO	Stopped listening on port 43395
+1605356009602	geckodriver	INFO	Listening on 127.0.0.1:36255
+1605356009606	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGB8l6R"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605356013507	Marionette	INFO	Listening on port 39213
+1605356013540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605356043493	geckodriver	INFO	Listening on 127.0.0.1:34659
+1605356043754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5t9ImE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Exiting due to channel error.
+Exiting due to channel error.
+1605356166486	geckodriver	INFO	Listening on 127.0.0.1:49055
+1605356167537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebOUfuM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605356182331	Marionette	INFO	Listening on port 33155
+1605356182749	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605356380255	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+1605384941522	geckodriver	INFO	Listening on 127.0.0.1:47331
+1605384941710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMmK2Ew"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605384944553	Marionette	INFO	Listening on port 45603
+1605384945372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605384951815	geckodriver	INFO	Listening on 127.0.0.1:60099
+1605384951818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelqbtJI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605384954431	Marionette	INFO	Listening on port 43105
+1605384954549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605384978108	Marionette	INFO	Stopped listening on port 43105
+1605384978133	Marionette	INFO	Stopped listening on port 45603
+1605385079575	geckodriver	INFO	Listening on 127.0.0.1:37467
+1605385079583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefd772a"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385082222	Marionette	INFO	Listening on port 37219
+1605385082331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385093198	Marionette	INFO	Stopped listening on port 37219
+1605385117420	geckodriver	INFO	Listening on 127.0.0.1:48095
+1605385117426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB85hU0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385120343	Marionette	INFO	Listening on port 46133
+1605385120461	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385175493	geckodriver	INFO	Listening on 127.0.0.1:48931
+1605385175498	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevNkbov"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385179191	Marionette	INFO	Listening on port 33253
+1605385179230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.ravenjs.com/3.22.1/raven.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.ravenjs.com/3.22.1/raven.min.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+1605385185026	Marionette	INFO	Stopped listening on port 33253
+1605385216494	geckodriver	INFO	Listening on 127.0.0.1:57317
+1605385216500	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKtYmKA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385219532	Marionette	INFO	Listening on port 36127
+1605385219624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605385227781	Marionette	INFO	Stopped listening on port 36127
+1605385259895	geckodriver	INFO	Listening on 127.0.0.1:45063
+1605385259901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWvAWmL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385264085	Marionette	INFO	Listening on port 44651
+1605385264132	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385275625	Marionette	INFO	Stopped listening on port 44651
+1605385506131	geckodriver	INFO	Listening on 127.0.0.1:34857
+1605385506138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileD3qAWm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385509976	Marionette	INFO	Listening on port 40027
+1605385510066	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385814141	geckodriver	INFO	Listening on 127.0.0.1:55617
+1605385814146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerztYu7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385819346	Marionette	INFO	Listening on port 40973
+1605385819379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+1605385836164	Marionette	INFO	Stopped listening on port 40973
+1605385844847	geckodriver	INFO	Listening on 127.0.0.1:35173
+1605385844853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileykmlCu"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385849456	Marionette	INFO	Listening on port 35903
+1605385849498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385891108	Marionette	INFO	Stopped listening on port 35903
+1605385892210	Marionette	INFO	Stopped listening on port 40027
+1605385893942	Marionette	INFO	Stopped listening on port 46133
+1605385953958	geckodriver	INFO	Listening on 127.0.0.1:54251
+1605385953963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilev4LBL7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605385956784	Marionette	INFO	Listening on port 45449
+1605385956887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605385977614	Marionette	INFO	Stopped listening on port 45449
+1605386035883	geckodriver	INFO	Listening on 127.0.0.1:54925
+1605386035888	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFsECbL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386039749	Marionette	INFO	Listening on port 34327
+1605386039813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605386058750	Marionette	INFO	Stopped listening on port 34327
+1605386114161	geckodriver	INFO	Listening on 127.0.0.1:51043
+1605386114165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletW6kQC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386125358	Marionette	INFO	Listening on port 35133
+1605386125412	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605386137993	Marionette	INFO	Stopped listening on port 35133
+1605386189874	geckodriver	INFO	Listening on 127.0.0.1:44819
+1605386189879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepV2wUq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386192583	Marionette	INFO	Listening on port 46661
+1605386192605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605386210435	Marionette	INFO	Stopped listening on port 46661
+1605386384911	geckodriver	INFO	Listening on 127.0.0.1:45039
+1605386384915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilezCftsF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386387775	Marionette	INFO	Listening on port 34013
+1605386387840	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605386400648	Marionette	INFO	Stopped listening on port 34013
+1605386507880	geckodriver	INFO	Listening on 127.0.0.1:39889
+1605386507885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiAdKmx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386526731	Marionette	INFO	Listening on port 43597
+1605386526769	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605386539000	Marionette	INFO	Stopped listening on port 43597
+1605386549770	geckodriver	INFO	Listening on 127.0.0.1:39693
+1605386549774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehAgTtD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386552503	Marionette	INFO	Listening on port 33235
+1605386552608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605386565147	Marionette	INFO	Stopped listening on port 33235
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605386938991	geckodriver	INFO	Listening on 127.0.0.1:42411
+1605386938996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHAb5vc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386941774	Marionette	INFO	Listening on port 34641
+1605386941821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605386959872	Marionette	INFO	Stopped listening on port 34641
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+1605386965859	geckodriver	INFO	Listening on 127.0.0.1:56151
+1605386965867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileB4MpjI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605386968471	Marionette	INFO	Listening on port 34095
+1605386968499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605386985289	Marionette	INFO	Stopped listening on port 34095
+1605387018466	geckodriver	INFO	Listening on 127.0.0.1:46327
+1605387018471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFlVsMn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605387021908	Marionette	INFO	Listening on port 41383
+1605387022023	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605387035703	Marionette	INFO	Stopped listening on port 41383
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605387295061	geckodriver	INFO	Listening on 127.0.0.1:55391
+1605387295066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLIdVeF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605387299487	Marionette	INFO	Listening on port 45007
+1605387299628	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605387315124	Marionette	INFO	Stopped listening on port 45007
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605387765523	geckodriver	INFO	Listening on 127.0.0.1:53171
+1605387765528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEp5Mbq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605387784606	Marionette	INFO	Listening on port 40667
+1605387784705	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605387815970	Marionette	INFO	Stopped listening on port 40667
+1605387985873	geckodriver	INFO	Listening on 127.0.0.1:59921
+1605387985879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZf65rs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605387989750	Marionette	INFO	Listening on port 37213
+1605387989826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605388008206	Marionette	INFO	Stopped listening on port 37213
+1605388222050	geckodriver	INFO	Listening on 127.0.0.1:39935
+1605388222055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexwuibk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605388224769	Marionette	INFO	Listening on port 34035
+1605388224879	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605388250388	Marionette	INFO	Stopped listening on port 34035
+1605388498575	geckodriver	INFO	Listening on 127.0.0.1:34145
+1605388498582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileANxlHC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605388501052	Marionette	INFO	Listening on port 43209
+1605388501302	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605388524801	Marionette	INFO	Stopped listening on port 43209
+1605389465967	geckodriver	INFO	Listening on 127.0.0.1:37093
+1605389465973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo0P0Z2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605389469221	Marionette	INFO	Listening on port 41719
+1605389469308	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605389476300	geckodriver	INFO	Listening on 127.0.0.1:43537
+1605389476304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9BxRWm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605389482112	Marionette	INFO	Listening on port 39675
+1605389482153	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605389508215	Marionette	INFO	Stopped listening on port 39675
+1605389508465	Marionette	INFO	Stopped listening on port 41719
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Places Connection shutdown","state":{"progress":{}},"filename":"/build/firefox-VA8TrF/firefox-82.0.3+build1/toolkit/components/places/Database.cpp","lineNumber":489,"stack":["resource://gre/modules/nsAsyncShutdown.jsm:addBlocker:162","resource://gre/modules/PlacesUtils.jsm:null:1934","resource://gre/modules/XPCOMUtils.jsm:get:58","resource://gre/modules/PageThumbs.jsm:PageThumbs_init:116","resource:///modules/BrowserGlue.jsm:BG__onFirstWindowLoaded:1853","resource:///modules/BrowserGlue.jsm:BG_observe:1007","chrome://browser/content/browser.js:_delayedStartup:2129"]}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 433))
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605389634739	geckodriver	INFO	Listening on 127.0.0.1:53203
+1605389634745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWw2T2G"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605389647147	Marionette	INFO	Listening on port 36685
+1605389647195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605389663772	Marionette	INFO	Stopped listening on port 36685
+1605390222136	geckodriver	INFO	Listening on 127.0.0.1:45251
+1605390222141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet1uwti"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605390228464	Marionette	INFO	Listening on port 37325
+1605390228595	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605390271883	Marionette	INFO	Stopped listening on port 37325
+1605390297877	geckodriver	INFO	Listening on 127.0.0.1:53131
+1605390297885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileqIRbeb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605390301430	Marionette	INFO	Listening on port 45493
+1605390301511	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605390351020	Marionette	INFO	Stopped listening on port 45493
+1605391022182	geckodriver	INFO	Listening on 127.0.0.1:36307
+1605391022187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8atjQ7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391034534	Marionette	INFO	Listening on port 46159
+1605391034659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391069861	Marionette	INFO	Stopped listening on port 46159
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605391108803	geckodriver	INFO	Listening on 127.0.0.1:43093
+1605391108807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebB6tLA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391112615	Marionette	INFO	Listening on port 33633
+1605391112732	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391131098	Marionette	INFO	Stopped listening on port 33633
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605391261801	geckodriver	INFO	Listening on 127.0.0.1:52693
+1605391261806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexTq7Px"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391264719	Marionette	INFO	Listening on port 40423
+1605391264839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391281115	Marionette	INFO	Stopped listening on port 40423
+1605391405902	geckodriver	INFO	Listening on 127.0.0.1:47327
+1605391405906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHrKlmg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391411592	Marionette	INFO	Listening on port 42787
+1605391411634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605391432020	Marionette	INFO	Stopped listening on port 42787
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391613061	geckodriver	INFO	Listening on 127.0.0.1:35865
+1605391613066	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb9XAsY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391636070	Marionette	INFO	Listening on port 45111
+1605391636173	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391659745	Marionette	INFO	Stopped listening on port 45111
+1605391747100	geckodriver	INFO	Listening on 127.0.0.1:49061
+1605391747105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9vaKx2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391758665	Marionette	INFO	Listening on port 46087
+1605391758781	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605391775887	Marionette	INFO	Stopped listening on port 46087
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1605391821503	geckodriver	INFO	Listening on 127.0.0.1:59155
+1605391821508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCloAUf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391834811	Marionette	INFO	Listening on port 36401
+1605391834864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1605391858333	Marionette	INFO	Stopped listening on port 36401
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1605391887249	geckodriver	INFO	Listening on 127.0.0.1:53083
+1605391887255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekkaOg8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605391897708	Marionette	INFO	Listening on port 41093
+1605391897800	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605391916675	Marionette	INFO	Stopped listening on port 41093
+1605393757249	geckodriver	INFO	Listening on 127.0.0.1:55607
+1605393757254	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexPaqx0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605393759656	Marionette	INFO	Listening on port 33611
+1605393759685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605393787398	Marionette	INFO	Stopped listening on port 33611
+1605393866610	geckodriver	INFO	Listening on 127.0.0.1:52759
+1605393866616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRvoU6q"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605393869803	Marionette	INFO	Listening on port 42643
+1605393869844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1605393928601	Marionette	INFO	Stopped listening on port 42643
+1605393991490	geckodriver	INFO	Listening on 127.0.0.1:44621
+1605393991495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWr6chc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605393994329	Marionette	INFO	Listening on port 45095
+1605393994419	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394016853	Marionette	INFO	Stopped listening on port 45095
+1605394049910	geckodriver	INFO	Listening on 127.0.0.1:58321
+1605394049915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepGWJYJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394055289	Marionette	INFO	Listening on port 41933
+1605394055368	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394081145	Marionette	INFO	Stopped listening on port 41933
+1605394105389	geckodriver	INFO	Listening on 127.0.0.1:35889
+1605394105394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIRl0Gp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394110684	Marionette	INFO	Listening on port 39307
+1605394110731	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394141086	Marionette	INFO	Stopped listening on port 39307
+1605394161627	geckodriver	INFO	Listening on 127.0.0.1:56711
+1605394161633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2AvJLw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394164085	Marionette	INFO	Listening on port 35837
+1605394164172	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394179729	Marionette	INFO	Stopped listening on port 35837
+1605394271953	geckodriver	INFO	Listening on 127.0.0.1:59905
+1605394271958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYHrBcS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394278531	Marionette	INFO	Listening on port 43975
+1605394278597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394293901	Marionette	INFO	Stopped listening on port 43975
+1605394340133	geckodriver	INFO	Listening on 127.0.0.1:58577
+1605394340138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley8c6SP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394343058	Marionette	INFO	Listening on port 39407
+1605394343174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394359117	Marionette	INFO	Stopped listening on port 39407
+1605394437372	geckodriver	INFO	Listening on 127.0.0.1:58159
+1605394437378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenrPRLr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394440424	Marionette	INFO	Listening on port 32885
+1605394440526	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394458877	Marionette	INFO	Stopped listening on port 32885
+1605394568108	geckodriver	INFO	Listening on 127.0.0.1:35697
+1605394568112	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHWAKgC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394571892	Marionette	INFO	Listening on port 34321
+1605394571940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394600048	Marionette	INFO	Stopped listening on port 34321
+1605394611252	geckodriver	INFO	Listening on 127.0.0.1:49045
+1605394611256	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegbzemD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394615703	Marionette	INFO	Listening on port 34563
+1605394615783	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394634758	Marionette	INFO	Stopped listening on port 34563
+1605394681776	geckodriver	INFO	Listening on 127.0.0.1:58953
+1605394681783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyrwLnl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394684583	Marionette	INFO	Listening on port 41559
+1605394684632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394700952	Marionette	INFO	Stopped listening on port 41559
+1605394974362	geckodriver	INFO	Listening on 127.0.0.1:51011
+1605394974366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAIJkLD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605394978965	Marionette	INFO	Listening on port 38481
+1605394979004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605394998291	Marionette	INFO	Stopped listening on port 38481
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605395101203	geckodriver	INFO	Listening on 127.0.0.1:49423
+1605395101208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQPCbGE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605395104158	Marionette	INFO	Listening on port 41661
+1605395104234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605395121664	Marionette	INFO	Stopped listening on port 41661
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+1605395232735	geckodriver	INFO	Listening on 127.0.0.1:44409
+1605395232740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1GZvfm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605395239491	Marionette	INFO	Listening on port 46243
+1605395239584	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605395260116	Marionette	INFO	Stopped listening on port 46243
+1605395333767	geckodriver	INFO	Listening on 127.0.0.1:46905
+1605395333772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQkFWWr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605395339911	Marionette	INFO	Listening on port 46729
+1605395340014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605395359448	Marionette	INFO	Stopped listening on port 46729
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605396136939	geckodriver	INFO	Listening on 127.0.0.1:49519
+1605396136944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileohJPeb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396139623	Marionette	INFO	Listening on port 46625
+1605396139670	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396157898	Marionette	INFO	Stopped listening on port 46625
+JavaScript error: https://cdn1.vivareal.com/p/15000-96dbfd883/v/static/app/js/shared.js, line 16: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: , line 0: uncaught exception: undefined
+1605396221089	geckodriver	INFO	Listening on 127.0.0.1:57825
+1605396221093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1NPqzs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396224320	Marionette	INFO	Listening on port 34047
+1605396224420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396240559	Marionette	INFO	Stopped listening on port 34047
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605396268042	geckodriver	INFO	Listening on 127.0.0.1:42945
+1605396268047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile25GjWM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396271630	Marionette	INFO	Listening on port 44029
+1605396271676	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396289481	Marionette	INFO	Stopped listening on port 44029
+1605396329469	geckodriver	INFO	Listening on 127.0.0.1:60269
+1605396329474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOmVopL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396333044	Marionette	INFO	Listening on port 34369
+1605396333103	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396349197	Marionette	INFO	Stopped listening on port 34369
+1605396407091	geckodriver	INFO	Listening on 127.0.0.1:53325
+1605396407096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMVEE2j"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396410364	Marionette	INFO	Listening on port 45639
+1605396410424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396426937	Marionette	INFO	Stopped listening on port 45639
+1605396488275	geckodriver	INFO	Listening on 127.0.0.1:46093
+1605396488280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehNILNr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396492321	Marionette	INFO	Listening on port 44283
+1605396492420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396513735	Marionette	INFO	Stopped listening on port 44283
+1605396557880	geckodriver	INFO	Listening on 127.0.0.1:47097
+1605396557886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevoYa3s"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396560707	Marionette	INFO	Listening on port 34487
+1605396560819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396575800	Marionette	INFO	Stopped listening on port 34487
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x380144,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1605396760031	geckodriver	INFO	Listening on 127.0.0.1:34943
+1605396760036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLFSD0R"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605396767946	Marionette	INFO	Listening on port 40621
+1605396768010	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605396793773	Marionette	INFO	Stopped listening on port 40621
+1605397376227	geckodriver	INFO	Listening on 127.0.0.1:41001
+1605397376232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileK5sNwm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605397379075	Marionette	INFO	Listening on port 39451
+1605397379161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605397403705	Marionette	INFO	Stopped listening on port 39451
+1605397415627	geckodriver	INFO	Listening on 127.0.0.1:44947
+1605397415631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOpgjeN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605397419321	Marionette	INFO	Listening on port 39107
+1605397419363	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605397438927	Marionette	INFO	Stopped listening on port 39107
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1605399743518	geckodriver	INFO	Listening on 127.0.0.1:42511
+1605399743523	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecvhn0U"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605399746377	Marionette	INFO	Listening on port 37215
+1605399746454	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://storage.googleapis.com/workbox-cdn/releases/3.5.0/workbox-sw.js, line 1: SyntaxError: redeclaration of const workbox
+1605399826529	Marionette	INFO	Stopped listening on port 37215
