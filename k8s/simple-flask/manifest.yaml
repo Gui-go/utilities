@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-flask-gke
+  labels:
+    app: simple-flask-gke
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-flask-gke
+  template:
+    metadata:
+      labels:
+        app: simple-flask-gke
+    spec:
+      containers:
+        - name: simple-flask-gke
+          image: 'guigo13/flasktry:v6'
+          ports:
+            - containerPort: 5000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-flask-gke
+  labels:
+    name: simple-flask-gke
+spec:
+  ports:
+    - port: 5000
+      targetPort: 5000
+      protocol: TCP
+  selector:
+    app: simple-flask-gke
+  type: LoadBalancer
+

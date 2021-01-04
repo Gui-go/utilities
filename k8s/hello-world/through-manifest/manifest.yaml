@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-nginx-gke
+  labels:
+    app: simple-nginx-gke
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-nginx-gke
+  template:
+    metadata:
+      labels:
+        app: simple-nginx-gke
+    spec:
+      containers:
+        - name: simple-nginx-gke
+          image: 'guigo13/simple-nginx-gcp-image:v1'
+          ports:
+            - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: simple-nginx-gke
+  labels:
+    name: simple-nginx-gke
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  selector:
+    app: simple-nginx-gke
+  type: LoadBalancer
