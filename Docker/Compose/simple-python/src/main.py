@@ -1,4 +1,4 @@
-from hello import MyClass
+import MyClass
 
 h = MyClass('guigo')
 
