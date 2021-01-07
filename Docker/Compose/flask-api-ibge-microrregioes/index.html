@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h2>Microrregiões do estado de <strong>{{ title }}</strong></h2>
+        <ul>
+        {% for member in members: %}
+        <li>{{ member }}</li>
+	{% endfor %}
+	</ul>
+    </body>
+</html>
