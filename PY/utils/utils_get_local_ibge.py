@@ -27,4 +27,3 @@ def get_local(uf):
 df = get_local(42)
 df
 # df.to_csv('localizacoes_ibge_sc.csv')
-
