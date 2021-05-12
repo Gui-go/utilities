@@ -13,3 +13,14 @@ type(chr(110))
 
 # dir() returns what methods are available for this object
 dir(test)
+
+#-----------------------------
+import pandas as pd
+df = pd.DataFrame(
+    {
+        "a": ["carro", "carro", "carro", "carro", "bike", "bike"],
+        "b": [1, 2, 3, 4, 1, 1]
+    }
+)
+
+df.groupby('key').transform(lambda x: x - x.mean())
