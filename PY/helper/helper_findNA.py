@@ -1,0 +1,1 @@
+df.isnull().values.any()
