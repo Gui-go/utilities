@@ -1,0 +1,11 @@
+txt para ser usado em testes da fct_grep.sh
+Primeira linha 
+Segunda linha
+Terceira lin 
+quarta llinha]
+quinta Linha]
+sexta linh 
+setima linha
+oitava linha]
+nona linha
+decima Linha

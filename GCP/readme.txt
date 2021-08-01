@@ -13,8 +13,17 @@
 # Gcloud command-line tips and tricks
 # https://www.youtube.com/watch?v=ezzZ--xt43c
 
+# For interactive cli help
+gcloud beta interactive
+
+# Get current project on GCP 
+gcloud config get-value project
+
 # Private Container Registry/Storage
 # https://www.youtube.com/watch?v=s46l_PmXBAQ
+
+# To authorize docker to use gcr
+gcloud auth configure-docker
 
 # Deploy a Container to Google Compute Engine (GCE)
 # https://www.youtube.com/watch?v=wKiW1nufh1k
@@ -37,4 +46,8 @@
 # https://www.youtube.com/watch?v=78itdGJpJAQ
 
 
+# Quickstart for Cloud SQL for PostgreSQL the Cloud SQL Auth proxy
+# https://cloud.google.com/sql/docs/postgres/quickstart
 
+# Connecting Overview
+# https://cloud.google.com/sql/docs/postgres/connect-overview
