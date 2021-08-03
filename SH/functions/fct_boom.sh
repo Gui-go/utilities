@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# DEPRECATED
+
 echo "Press any key:"
 
 while [ true ]

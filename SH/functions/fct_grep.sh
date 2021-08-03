@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# Searches for a word within a document (?)
+
 echo "Enter filename to search text from:"
 read fileName
 

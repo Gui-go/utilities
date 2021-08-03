@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Gives N tries to guess the passwd
+
 i=0
 max=10
 secret="passwd"
