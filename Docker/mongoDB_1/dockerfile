@@ -1,0 +1,18 @@
+FROM mongo
+
+# RUN apt update -y && apt upgrade -y
+# RUN rm -rf /var/lib/apt/lists/*
+
+# Define mountable directories.
+VOLUME ["/data/db"]
+
+# Define working directory.
+# WORKDIR /data
+
+# Expose ports.
+EXPOSE 27017
+
+# Define default command.
+CMD ["mongod"]
+
+

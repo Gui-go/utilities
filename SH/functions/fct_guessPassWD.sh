@@ -2,6 +2,8 @@
 
 # Gives N tries to guess the passwd
 
+echo "Try and guess the password"
+echo "...or else..."
 i=0
 max=10
 secret="passwd"
@@ -16,7 +18,7 @@ do
         i=$(($max+1))
     elif [ $i = $max ]
     then
-        echo "Booom!!"
+        echo "Booom!!!"
     else
         echo "Try again"
     fi

@@ -1,0 +1,30 @@
+version: "3.3"
+
+services:
+
+    db:
+        image : mongo
+        restart: unless-stopped
+        volumes:
+            - /home/guigo/Documents/projects_dir/04-utilities/utilities/Docker/mongodb_2/mongo_vol/:/data/db
+        ports:
+            - "27017:27017"         
+        environment:
+          MONGO_INITDB_ROOT_USERNAME: root
+          MONGO_INITDB_ROOT_PASSWORD: passwd
+        container_name: mongo_ctn
+        network_mode: host
+        
+    app:
+        build: ./shinyapp/
+        ports:
+          - "3838:3838"
+        container_name: app_ctn
+        network_mode: host
+        depends_on:
+          - db
+
+networks: 
+    default:
+        external:
+            name: net
