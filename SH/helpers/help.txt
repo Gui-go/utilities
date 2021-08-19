@@ -1,0 +1,13 @@
+
+
+
+
+
+
+
+
+
+
+
+
+netmask: maximum range that an ip can go to ?
