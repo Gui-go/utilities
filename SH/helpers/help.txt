@@ -1,5 +1,8 @@
-
-
+#txt
+Here I intend to save some tips
+but also, gonna use it to pratice commads
+like: cut, find, cat, tail, and much more
+First command: 
 
 
 

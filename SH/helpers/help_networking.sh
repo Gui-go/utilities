@@ -9,6 +9,8 @@ ifconfig
 # ifconfig é usado para configurar (e posteriormente manter) as interfaces de rede. É usado durante o boot para configurar  a maioria   delas  para  um  estado  usável.  Depois  disto,  é normalmente somente necessário durante depurações  ou  quando for necessária uma configuração fina do sistema.
 # Se  nenhum argumento for informado, ifconfig somente mostra o estado  das  interfaces  correntemente   definidas.   Se   um argumento  interface  for  informado,  ele  mostra  somente o estado da interface informada. De outra forma ele assume  que os parâmetros devem ser configurados.
 ifconfig
+ifconfig | grep broadcast | awk '{print $2}' # print own's ip
+alias myip="echo $(ifconfig | grep broadcast | awk '{print $2}')"
 
 # iwconfig - configure a wireless network interface
 iwconfig

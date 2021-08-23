@@ -18,3 +18,10 @@ nslookup scame.nmap.org
 nslookup 45.33.49.119 # by ip_address (scanme.nmap.org ip_address)
 nslookup www.google.com
 # Search for "who is <ip_address>"
+
+# Wget - The non-interactive network downloader.
+wget -qO- "http://wttr.in/" # -q quiet, O- returns stdout (Returns the wheather prediction as stdout on the terminal)
+
+
+
+

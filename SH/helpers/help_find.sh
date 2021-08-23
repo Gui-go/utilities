@@ -16,3 +16,10 @@ find . -type d
 
 # Lists all files
 find . -type f
+
+# Ranks all the txt files by number of lines
+wc -l $(find . -name "*.txt") | sort -nr
+
+find . -type d -iname "dir*" | xargs rm -rf # Find and remove every dir* directory in at current folder
+time find . -type d -iname "dir*" | xargs rm -rf # To check time performance (xargs is much better than exec)
+

@@ -6,7 +6,14 @@ echo Hello world
 echo "Hello world"
 echo "My name is $(whoami)"
 echo "My name is $(whoami)" | tr " "  "\n"
+echo {1..100}
 
+# which - locate a command
+which bash
+
+# echo
+echo 'one two three' | xargs touch
+echo 'one two three' | xargs rm
 
 nano
 vi
@@ -25,11 +32,33 @@ sudo cat /etc/shadow
 cat /var/log/auth.log | grep guilherme
 cat /var/log/syslog | grep guilherme
 
+# wc - print newline, word, and byte counts for each file
+wc bestPracticesNotes.txt # Counts lines, words and characters
+wc -l *.txt # Counts lines for each .txt file 
+wc -l *.txt | sort -n
+wc -l *.txt | sort -n | head -n 1 # The least
+wc -l *.txt | sort -n | tail -n 1 # The most
+
+
+
+# sort - sort lines of text files
+# -n, --numeric-sort
+# -r, --reverse
+cat SH/helpers/help_animals.csv | cut -d , -f 2 |sort | uniq -c
+cat SH/helpers/help_animals.csv | cut -d , -f 2 |sort | uniq -c | sort -nr 
+
+
+
 # grep, egrep, fgrep, rgrep - print lines that match patterns
 grep 
 
 
-cut
+# cut
+cut -d , -f 2 animals.csv # Gets second column of animals.csv
+cut -d , -f 1 SH/helpers/help_animals.csv # Gets first column
+cut -d , -f 2 SH/helpers/help_animals.csv | sort | uniq
+cut -d , -f 2 SH/helpers/help_animals.csv | sort | uniq -c # Counts how many times an animal accours
+
 
 # tr - translate or delete characters
 # tr é bom pra fazer sumir caracteres indesejados no stdout
@@ -69,3 +98,13 @@ find ./Documentos/proj_dir/ -amin -60
 find . -size +50M -size -100M # Find all the files between 50M and 100M size
 find / -type f -size +100M -exec rm -f {} \; # Find all files in the root dir greater than 100M and rm it
 find / -type f -name *.mp3 -size +10M -exec rm {} \;
+
+
+# seq - print a sequence of numbers
+# -s, --separator=STRING [use STRING to separate numbers (default: \n)]
+seq 100
+seq -s"-" 100 | tr -d [:digit:]
+
+# printf - format and print data
+printf %100s # A hundred spaces
+printf %100s |tr " " "=" # A hundred =

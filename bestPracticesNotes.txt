@@ -1,0 +1,13 @@
+
+
+# Utilities folders and scripts:
+functions/fct_example.sh
+utis/util_example.py 
+visualizations/viz_example.R
+helper/help_example.py
+
+
+
+ 
+# Arguments in upper case
+ARG 
