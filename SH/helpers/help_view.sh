@@ -24,13 +24,27 @@ gedit
 tail /var/log/syslog 
 tail /var/log/auth.log
 tail -f /var/log/syslog # Lets open stdout windown to check incoming updates 
-# afonso
+
+# less - opposite of more
+less path_to_file
+less /var/log/syslog
+
 # cat - concatenate files and print on the standard output
 cat 
 cat /etc/passwd
 sudo cat /etc/shadow
 cat /var/log/auth.log | grep guilherme
 cat /var/log/syslog | grep guilherme
+cat /etc/shells # Find out which shells are currently installed
+cat /etc/passwd | column -t -s : # Gets the output as a table divided by :
+cat my_file | tr a-z A-Z > output.txt # Converts all lower case to upper case
+
+
+# grep
+grep $USER /etc/passwd # Find out which shell is currently being used
+
+
+
 
 # wc - print newline, word, and byte counts for each file
 wc bestPracticesNotes.txt # Counts lines, words and characters
@@ -108,3 +122,8 @@ seq -s"-" 100 | tr -d [:digit:]
 # printf - format and print data
 printf %100s # A hundred spaces
 printf %100s |tr " " "=" # A hundred =
+
+
+
+# file — determine file type
+file -h /bin/sh # As we can see, the /bin/sh is symbolically linked to dash

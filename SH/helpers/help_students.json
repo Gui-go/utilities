@@ -1,0 +1,20 @@
+[
+    {
+        "roll": 3,
+        "name": "Micheal",
+        "batch": 29,
+        "department": "CSE"
+    },
+    {
+        "roll": 55,
+        "name": "Lisa",
+        "batch": 34,
+        "department": "BBA"
+    },
+    {
+        "roll": 12,
+        "name": "John",
+        "batch": 22,
+        "department": "English"
+    }
+]

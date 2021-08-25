@@ -15,6 +15,7 @@ ls *.txt # list all files that ends with .txt
 #
 cd 
 cd /var/log/
+cd - # Switch back to the last wd
 
 # su - run a command with substitute user and group ID
 su

@@ -5,12 +5,11 @@ bold=`echo "\e[1m"`; underline=`echo "\e[4m"`; dim=`echo "\e[2m"`; strickthrough
 used=$(free | grep Mem | awk {'print $3'})
 available=$(free | grep Mem | awk {'print $2'})
 
-# result=`echo $used / $available | bc -l` # not rounded 
-# res=$(printf "%0.2f" $result) # rounded
-rr=`echo $used / $available | bc -l | xargs printf "%.2f"` # all in one step
+result=`echo $used / $available | bc -l` # not rounded 
+ress=$(echo $result \* 100 | bc)
+res=$(printf "%0.3f" $ress) # rounded
 
-resc=${red}$rr${normal} # colored
-echo "Ur system is using $resc of its memory"
+echo "Ur system is using ${red}$res %${normal} of its RAM memory"
 
 
 
