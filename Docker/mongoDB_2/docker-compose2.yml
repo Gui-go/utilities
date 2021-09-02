@@ -21,3 +21,10 @@ services:
           - "3838:3838"
         container_name: app_ctn
         network_mode: host
+        depends_on:
+          - db
+
+networks: 
+    default:
+        external:
+            name: net

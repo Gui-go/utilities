@@ -19,6 +19,9 @@ adduser
 adduser <USER>
 
 
+# usermod - modify a user account
+usermod -aG sudo guigo # to give root privilege
+
 
 # lsb_release - print distribution-specific information
 # The lsb_release command provides certain LSB (Linux Standard Base) and distribution-specific information.
@@ -39,3 +42,12 @@ find SH/helpers/help_function0.sh -printf "%m:%p\n"
 chown username filename
 chown username:groupname filename
 chown -R username:groupname dirname
+
+
+# lsb_release - print distribution-specific information
+# The lsb_release command provides certain LSB (Linux Standard Base) and distribution-specific information.
+lsb_release -a
+
+
+# Returns IP address (and others)
+hostname -i
