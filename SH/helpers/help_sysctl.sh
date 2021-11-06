@@ -17,3 +17,10 @@ screenfetch
 sudo shutdown 21:00
 sudo shutdown +15 #(minutes)
 
+# lslogins - display information about known users in the system
+lslogins
+
+
+
+
+
