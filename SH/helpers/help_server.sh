@@ -24,4 +24,15 @@ wget -qO- "http://wttr.in/" # -q quiet, O- returns stdout (Returns the wheather 
 
 
 
+# route - show / manipulate the IP routing table
+# sudo apt install net-tools
+route -n 
 
+
+# Returns the public IP address
+curl https://ipinfo.io/ip
+
+
+# nslookup - query Internet name servers interactively
+# Check whether a DNS is taken (connected) or not
+nslookup google.com

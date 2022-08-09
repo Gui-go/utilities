@@ -22,3 +22,6 @@ cat /etc/shells
 
 # Check whether a term is contained in a dir
 grep -Pri Search_Term path_to_directory
+
+# To highlight the directory name among all files
+ls -R | grep -z interest_dir

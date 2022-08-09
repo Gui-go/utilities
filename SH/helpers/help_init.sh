@@ -26,3 +26,7 @@ head
 
 find
 
+cal
+
+date
+
