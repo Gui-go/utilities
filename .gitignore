@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 utilities.Rproj
+data/*
+PY/functions/__pycache__/
