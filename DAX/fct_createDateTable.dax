@@ -1,0 +1,16 @@
+dimCalendar = 
+    VAR MinYear = YEAR ( MIN ( factSales[Date] ) )
+    VAR MaxYear = YEAR ( MAX ( factSales[Date] ) )
+    RETURN
+    ADDCOLUMNS (
+        FILTER (
+            CALENDARAUTO( ),
+            AND ( YEAR ( [Date] ) >= MinYear, YEAR ( [Date] ) <= MaxYear )
+        ),
+        "date_stamp", FORMAT ( [Date], "yyyymmdd" ),
+        "vl_year", YEAR ( [Date] ),
+        "nm_month", FORMAT ( [Date], "mmmm" ),
+        "vl_month", MONTH ( [Date] ),
+        "nm_day", FORMAT ( [Date], "dddd" ),
+        "vl_day", DAY ( [Date] )
+    )
