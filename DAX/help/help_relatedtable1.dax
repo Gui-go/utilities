@@ -1,0 +1,8 @@
+'Product Category'[CategorySales] =
+SUMX (
+    RELATEDTABLE ( Sales ),
+    Sales[Quantity] * Sales[Net Price]
+)
+
+
+

@@ -1,0 +1,1 @@
+DECLARE item DEFAULT (SELECT item FROM schema1.products LIMIT 1);

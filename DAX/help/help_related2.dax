@@ -1,0 +1,3 @@
+// if we want to know how many products are in each category, we can create a column in Product Category with this formula:
+
+'Product Category'[NumOfProducts] = COUNTROWS ( RELATEDTABLE ( Product ) )

@@ -1,0 +1,5 @@
+= IF(
+    ISERROR( Sales[Quantity] * Sales[Price] ),
+    BLANK(),
+    Sales[Quantity] * Sales[Price]
+)

@@ -1,0 +1,9 @@
+'Product'[Product Sales Amount Multiple Items] =
+SUMX (
+    FILTER (
+        RELATEDTABLE ( Sales ),
+        Sales[Quantity] > 1
+    ),
+    Sales[Quantity] * Sales[Unit Price]
+)
+

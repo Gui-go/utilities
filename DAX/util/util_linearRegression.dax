@@ -1,0 +1,13 @@
+LM_estimate = 
+VAR n = COUNTROWS(ALLSELECTED(mtcars))
+VAR sum_x = SUMX(ALLSELECTED(mtcars), mtcars[hp])
+VAR sum_y = SUMX(ALLSELECTED(mtcars), mtcars[mpg])
+VAR sum_x2 = SUMX(ALLSELECTED(mtcars), mtcars[hp] ^ 2)
+VAR sum_y2 = SUMX(ALLSELECTED(mtcars), mtcars[mpg] ^ 2)
+VAR sum_xy = SUMX(ALLSELECTED(mtcars), mtcars[hp] * mtcars[mpg])
+VAR avg_x = AVERAGEX(ALLSELECTED(mtcars), mtcars[hp])
+VAR avg_y = AVERAGEX(ALLSELECTED(mtcars), mtcars[mpg])
+VAR intercept = DIVIDE((sum_y*sum_x2)-(sum_x*sum_xy), (n*sum_x2)-(sum_x^2))
+VAR slope = DIVIDE((n*sum_xy)-(sum_x*sum_y), (n*sum_x2)-sum_x2)
+VAR estimate = intercept + slope * [input]
+RETURN estimate

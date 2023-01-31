@@ -1,0 +1,5 @@
+NumOfRedProducts :=
+COUNTROWS (
+    FILTER ( 'Product', 'Product'[Color] = "Red" )
+)
+

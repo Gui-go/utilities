@@ -1,0 +1,50 @@
+-- CREATE SCHEMA [STAGE]
+-- GO
+-- SELECT * FROM sys.databases
+-- SELECT schema_name FROM information_schema.schemata
+
+DROP TABLE IF EXISTS [STAGE].[DF_LOCATIONS]
+GO
+CREATE TABLE [STAGE].[DF_LOCATIONS] 
+( 
+	cd_mun VARCHAR(250) NOT NULL,
+	nm_mun VARCHAR(250) NOT NULL,
+	cd_micro VARCHAR(250) NOT NULL,
+	nm_micro VARCHAR(250) NOT NULL,
+	cd_meso VARCHAR(250) NOT NULL,
+	nm_meso VARCHAR(250) NOT NULL,
+	cd_rgime VARCHAR(250) NOT NULL,
+	nm_rgime VARCHAR(250) NOT NULL,
+	cd_rgint VARCHAR(250) NOT NULL,
+	nm_rgint VARCHAR(250) NOT NULL,
+	cd_uf VARCHAR(250) NOT NULL,
+	sg_uf VARCHAR(250) NOT NULL,
+	nm_uf VARCHAR(250) NOT NULL,
+	cd_rg VARCHAR(250) NOT NULL,
+	sg_rg VARCHAR(250) NOT NULL,
+	nm_rg VARCHAR(250) NOT NULL
+); 
+GO 
+-- SELECT * FROM [STAGE].[DF_LOCATIONS] 
+
+DROP EXTERNAL DATA SOURCE MyAzureBlobStorage
+CREATE EXTERNAL DATA SOURCE MyAzureBlobStorage
+WITH (
+	TYPE = BLOB_STORAGE, 
+	LOCATION = 'https://spillalloverstgacc.blob.core.windows.net'
+);
+-- SELECT * FROM sys.external_data_sources
+
+BULK INSERT [STAGE].[DF_LOCATIONS]
+FROM 'spillalloverctn/df_locations.csv'
+WITH (
+	DATA_SOURCE = 'MyAzureBlobStorage',
+	FORMAT='CSV', 
+	CODEPAGE = 65001, --UTF-8 encoding
+	FIRSTROW=2,
+	TABLOCK
+	); 
+
+SELECT * FROM [STAGE].[DF_LOCATIONS]
+
+-- DROP TABLE [STAGE].[DF_LOCATIONS]

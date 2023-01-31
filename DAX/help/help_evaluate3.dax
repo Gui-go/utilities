@@ -1,0 +1,9 @@
+EVALUATE
+FILTER (
+    SUMMARIZECOLUMNS (
+        Customers[CustomerName],
+        "SumOfSales", SUM ( Sales[SalesAmount] )
+    ),
+    [SumOfSales] > 100
+)
+

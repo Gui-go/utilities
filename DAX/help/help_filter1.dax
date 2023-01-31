@@ -1,0 +1,5 @@
+ExpensiveProducts =
+FILTER (
+    'Product',
+    'Product'[Unit Price] > 3000
+)

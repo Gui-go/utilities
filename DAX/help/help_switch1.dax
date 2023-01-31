@@ -1,0 +1,9 @@
+'Product'[SizeDesc] =
+SWITCH (
+    'Product'[Size],
+    "S", "Small",
+    "M", "Medium",
+    "L", "Large",
+    "XL", "Extra Large",
+    "Other"
+)

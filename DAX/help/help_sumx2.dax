@@ -1,0 +1,8 @@
+'Sales Amount Multiple Items' :=
+SUMX (
+    FILTER (
+        Sales,
+        Sales[Quantity] > 1
+    ),
+    Sales[Quantity] * Sales[Net Price]
+)

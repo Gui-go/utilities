@@ -1,0 +1,7 @@
+'All Sales Amount' :=
+SUMX (
+    ALL ( Sales ),
+    Sales[Quantity] * Sales[Net Price]
+)
+
+

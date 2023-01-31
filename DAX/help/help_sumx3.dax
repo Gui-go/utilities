@@ -1,0 +1,9 @@
+'Sales Amount Multiple Items' :=
+VAR
+    MultipleItemSales = FILTER ( Sales, Sales[Quantity] > 1 )
+RETURN
+    SUMX (
+        MultipleItemSales,
+        Sales[Quantity] * Sales[Unit Price]
+)
+

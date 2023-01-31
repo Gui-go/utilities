@@ -1,0 +1,5 @@
+'Product'[Product Sales Amount] =
+SUMX (
+    RELATEDTABLE ( Sales ),
+    Sales[Quantity] * Sales[Unit Price]
+)

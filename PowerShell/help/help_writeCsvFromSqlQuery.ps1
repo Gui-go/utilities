@@ -1,0 +1,1 @@
+Invoke-Sqlcmd -Query "SELECT * FROM [ODS].[dbo].[stores];" -ServerInstance "SQLEXPRESS" | Export-Csv -Path "data/teste.csv" -NoTypeInformation

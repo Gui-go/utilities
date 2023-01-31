@@ -1,0 +1,11 @@
+CREATE DATABASE db;
+GO
+USE db;
+GO
+
+CREATE SCHEMA Fact;
+GO
+CREATE SCHEMA Dimension;
+GO
+
+SELECT * FROM sys.schemas;

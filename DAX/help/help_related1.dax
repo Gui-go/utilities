@@ -1,0 +1,6 @@
+Sales[AdjustedCost] =
+IF (
+    RELATED ( 'Product Category'[Category] ) = "Cell Phone",
+    Sales[Unit Cost] * 0.95,
+    Sales[Unit Cost]
+)
