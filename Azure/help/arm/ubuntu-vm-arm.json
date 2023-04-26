@@ -1,0 +1,311 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+
+    // PARAMETERS:
+    "parameters": {
+
+        // Service name parameter:
+        "serviceName": {
+            "type": "string",
+            "defaultValue": "azservice",
+            "minLength": 3,
+            "maxLength": 20
+        },
+
+        // VM capacity parameter:
+        "vmCapability": {
+            "type": "string",
+            "defaultValue": "smallTurtle",
+            "allowedValues": [
+                "tinySardine",
+                "smallTurtle",
+                "mediumHound",
+                "bigHorse",
+                "greatCthulhu"
+            ]
+        },
+
+        // VM AuthN User:
+        "adminUsername": {
+            "type": "string",
+            "defaultValue": "VMuser",
+            "minLength": 3,
+            "maxLength": 21
+        },
+
+        // VM AuthN Password:
+        "adminPassword": {
+            "type": "secureString",
+            "defaultValue": "VMpasswd123#",
+            "minLength": 3,
+            "maxLength": 21
+        }
+    },
+
+    // VARIABLES:
+    "variables": {
+
+        // 5 VM capacity to choose from:
+        "VMcap": {
+            "tinySardine": {
+                "vmSize": "Standard_B1s",
+                "osDiskType": "Standard_LRS",
+                "osDiskSize": 32
+            },
+            "smallTurtle": {
+                "vmSize": "Standard_B2s",
+                "osDiskType": "Premium_LRS",
+                "osDiskSize": 128
+            },
+            "mediumHound": {
+                "vmSize": "Standard_F8s_v2",
+                "osDiskType": "StandardSSD_LRS",
+                "osDiskSize": 512
+            },
+            "bigHorse": {
+                "vmSize": "Standard_E8bs_v5",
+                "osDiskType": "UltraSSD_LRS",
+                "osDiskSize": 1024
+            },
+            "greatCthulhu": { // use the validate command with this VM, otherwise testing will be too heck expensive.
+                "vmSize": "Standard_NV48s_v3", // This size is not available in brazilsouth
+                "osDiskType": "UltraSSD_ZRS",
+                "osDiskSize": 4096
+            }
+        },
+
+        // Image Reference:
+        "imgRef": {
+            "publisher": "canonical",
+            "offer": "0001-com-ubuntu-minimal-jammy",
+            "sku": "minimal-22_04-lts-gen2",
+            "version": "latest"
+        },
+
+        // Network security group (NSG):
+        "nsgName": "[concat(parameters('serviceName'), 'nsg')]",
+        "nsgId": "[resourceId(resourceGroup().name, 'Microsoft.Network/networkSecurityGroups', variables('nsgName'))]",
+        "nsgRules": [
+            {
+                "name": "AllowSSH",
+                "properties": {
+                    "protocol": "Tcp",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "22",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 100,
+                    "direction": "Inbound"
+                }
+            },
+            {
+                "name": "AllowHTTP",
+                "properties": {
+                    "description": "Allow HTTP traffic",
+                    "protocol": "Tcp",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "80",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 200,
+                    "direction": "Inbound"
+                }
+            },
+            {
+                "name": "AllowHTTPS",
+                "properties": {
+                    "description": "Allow HTTPS traffic",
+                    "protocol": "Tcp",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "443",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 210,
+                    "direction": "Inbound"
+                }
+            },
+            {
+                "name": "AllowRDP",
+                "properties": {
+                    "description": "Allow RDP traffic",
+                    "protocol": "Tcp",
+                    "sourcePortRange": "*",
+                    "destinationPortRange": "3389",
+                    "sourceAddressPrefix": "*",
+                    "destinationAddressPrefix": "*",
+                    "access": "Allow",
+                    "priority": 220,
+                    "direction": "Inbound"
+                }
+            }
+        ],
+
+        // Virtual network (VNet):
+        "vnetName": "[concat(parameters('serviceName'), 'vnet')]",
+        "vnetId": "[resourceId(resourceGroup().name,'Microsoft.Network/virtualNetworks', variables('vnetName'))]",
+        "vnetPrefix": "10.0.0.0/16",
+
+        // Subnet:
+        "subnetName": "[concat(parameters('serviceName'), 'subnet')]",
+        "subnetPrefix": "10.0.0.0/24",
+        "subnetRef": "[concat(variables('vnetId'), '/subnets/', variables('subnetName'))]",
+
+        // Network interface (NIC):
+        "nicName": "[concat(parameters('serviceName'), 'nic')]",
+
+        // Public IP address (PIP):
+        "pipAddressName": "[concat(parameters('serviceName'), 'pip')]",
+        "pipAddressType": "Static",
+        "pipAddressSku": "Standard"
+
+    },
+
+    // RESOURCES:
+    "resources": [
+
+        // Network Security Groups (NSG):
+        {
+            "name": "[variables('nsgName')]",
+            "type": "Microsoft.Network/networkSecurityGroups",
+            "apiVersion": "2019-02-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "securityRules": "[variables('nsgRules')]" // Rules for ports 22, 80, 443 and 3389.
+            }
+        },
+
+        // Public IP Address:
+        {
+            "name": "[variables('pipAddressName')]",
+            "type": "Microsoft.Network/publicIpAddresses",
+            "apiVersion": "2020-08-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "publicIpAllocationMethod": "[variables('pipAddressType')]"
+            },
+            "sku": {
+                "name": "[variables('pipAddressSku')]"
+            }
+        },
+
+        // Virtual Machine (VM):
+        {
+            "name": "[concat(parameters('serviceName'), 'vm')]",
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2022-03-01",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "[concat('Microsoft.Network/networkInterfaces/', variables('nicName'))]"
+            ],
+            "properties": {
+                "hardwareProfile": {
+                    "vmSize": "[variables('VMcap')[parameters('vmCapability')].vmSize]"
+                },
+                "storageProfile": {
+                    "imageReference": "[variables('imgRef')]",
+                    "osDisk": {
+                        "name": "[concat(parameters('serviceName'), 'vmDisk')]"
+                        "createOption": "fromImage",
+                        "diskSizeGB": "[variables('VMcap')[parameters('vmCapability')].osDiskSize]",
+                        "managedDisk": {
+                            "storageAccountType": "[variables('VMcap')[parameters('vmCapability')].osDiskType]"
+                        }
+                    }
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', variables('nicName'))]"
+                        }
+                    ]
+                },
+                "osProfile": {
+                    "computerName": "[concat(parameters('serviceName'), 'comp')]",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]",
+                    "linuxConfiguration": {
+                        "patchSettings": {
+                            "patchMode": "ImageDefault"
+                        }
+                    }
+                }
+            }
+        },
+
+        // Network Interface (NIC):
+        {
+            "name": "[variables('nicName')]",
+            "type": "Microsoft.Network/networkInterfaces",
+            "apiVersion": "2021-08-01",
+            "location": "[resourceGroup().location]",
+            "dependsOn": [
+                "[concat('Microsoft.Network/networkSecurityGroups/', variables('nsgName'))]",
+                "[concat('Microsoft.Network/virtualNetworks/', variables('vnetName'))]",
+                "[concat('Microsoft.Network/publicIpAddresses/', variables('pipAddressName'))]"
+            ],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "subnet": {
+                                "id": "[variables('subnetRef')]"
+                            },
+                            "privateIPAllocationMethod": "Dynamic",
+                            "publicIpAddress": {
+                                "id": "[resourceId(resourceGroup().name, 'Microsoft.Network/publicIpAddresses', variables('pipAddressName'))]"
+                            }
+                        }
+                    }
+                ],
+                "networkSecurityGroup": {
+                    "id": "[variables('nsgId')]"
+                }
+            }
+        },
+
+        // A Virtual Network (VNet):
+        {
+            "name": "[variables('vnetName')]",
+            "type": "Microsoft.Network/virtualNetworks",
+            "apiVersion": "2022-01-01",
+            "location": "[resourceGroup().location]",
+            "properties": {
+                "addressSpace": {
+                    "addressPrefixes": [
+                        "[variables('vnetPrefix')]"
+                    ]
+                },
+                "subnets": [
+                    {
+                        "name": "[variables('subnetName')]",
+                        "properties": {
+                            "addressPrefix": "[variables('subnetPrefix')]",
+                            "networkSecurityGroup": {
+                                "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('nsgName'))]"
+                            }
+                        }
+                    }
+                ]
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Network/networkSecurityGroups', variables('nsgName'))]"
+            ]
+        }
+    ],
+
+    // OUTPUTS:
+    "outputs": {
+
+        // Public IP Address:
+        "PublicIPaddress": {
+            "type": "string",
+            "value": "[reference(variables('pipAddressName')).ipAddress]"
+        }
+
+    }
+}
