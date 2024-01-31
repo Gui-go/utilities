@@ -13,16 +13,21 @@ variable "svc_name" {
   default = "gisVM"
 }
 
+resource "azurerm_resource_group" "tfazrg" {
+  name     = var.rg_name
+  location = var.location
+}
+
 resource "azurerm_virtual_network" "tfazvnet" {
   name                = "${var.svc_name}-vnet"
   address_space       = ["10.0.0.0/16"]
   location            = "westeurope"
-  resource_group_name = var.rg_name
+  resource_group_name = azurerm_resource_group.tfazrg.name
 }
 
 resource "azurerm_subnet" "tfazsubnet" {
   name                 = "${var.svc_name}-snet"
-  resource_group_name  = var.rg_name
+  resource_group_name  = azurerm_resource_group.tfazrg.name
   address_prefixes     = ["10.0.1.0/24"]
   virtual_network_name = azurerm_virtual_network.tfazvnet.name
 }
@@ -30,14 +35,14 @@ resource "azurerm_subnet" "tfazsubnet" {
 resource "azurerm_public_ip" "tfazpubip" {
   name                = "${var.svc_name}-pubip"
   location            = "westeurope"
-  resource_group_name = var.rg_name
+  resource_group_name = azurerm_resource_group.tfazrg.name
   allocation_method   = "Static"
 }
 
 resource "azurerm_network_interface" "tfaznic" {
   name                = "${var.svc_name}-ni"
   location            = "westeurope"
-  resource_group_name = var.rg_name
+  resource_group_name = azurerm_resource_group.tfazrg.name
   ip_configuration {
     name                          = "${var.svc_name}-intip"
     subnet_id                     = azurerm_subnet.tfazsubnet.id
@@ -49,7 +54,7 @@ resource "azurerm_network_interface" "tfaznic" {
 resource "azurerm_linux_virtual_machine" "tfazvmachine" {
   name                   = "${var.svc_name}-vm"
   location               = "westeurope"
-  resource_group_name    = var.rg_name
+  resource_group_name    = azurerm_resource_group.tfazrg.name
   network_interface_ids  = [azurerm_network_interface.tfaznic.id]
   admin_username         = "useradmin"
   admin_password         = "Passwd123" # data.azurerm_key_vault_secret.tfazkvsecret.value
@@ -72,7 +77,7 @@ resource "azurerm_linux_virtual_machine" "tfazvmachine" {
 resource "azurerm_network_security_group" "tfaznsg" {
   name                = "${var.svc_name}-nsg"
   location            = "westeurope"
-  resource_group_name = var.rg_name
+  resource_group_name = azurerm_resource_group.tfazrg.name
   security_rule {
     name                       = "allow-ssh"
     priority                   = 100
