@@ -5,7 +5,7 @@ provider "azurerm" {
 
 variable "rg_name" {
   type = string
-  default = "newTrial"
+  default = "newTrial2"
 }
 
 variable "svc_name" {
