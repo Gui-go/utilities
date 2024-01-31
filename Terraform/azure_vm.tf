@@ -5,12 +5,17 @@ provider "azurerm" {
 
 variable "rg_name" {
   type = string
-  default = "rg-GIS"
+  default = "newTrial"
 }
 
 variable "svc_name" {
   type = string
   default = "gisVM"
+}
+
+variable "location" {
+  type = string
+  default = "westeurope"
 }
 
 resource "azurerm_resource_group" "tfazrg" {
