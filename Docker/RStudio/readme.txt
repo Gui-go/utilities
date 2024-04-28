@@ -4,6 +4,7 @@
 
 # Build the image
 sudo docker build . -t rstudio-custom:v20210526
+sudo docker build -t rstudio-custom:v20240428 -f dockerfile.rstudio .
 
 # Check the images
 sudo docker images
